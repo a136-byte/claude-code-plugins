@@ -21,7 +21,7 @@ notification types is more awkward there. The hook pins `powershell.exe`.
 
 ```
 claude plugin marketplace add a136-byte/claude-code-plugins
-claude plugin install windows-notify@claude-code-plugins
+claude plugin install windows-notify@a136-byte-plugins
 ```
 
 Restart Claude Code, or run `/reload-plugins`.

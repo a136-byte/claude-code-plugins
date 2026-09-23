@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-code-plugins",
+  "name": "a136-byte-plugins",
   "description": "Small, focused Claude Code plugins for Windows workflows.",
   "owner": {
     "name": "a136-byte",
