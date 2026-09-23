@@ -20,11 +20,15 @@ notification types is more awkward there. The hook pins `powershell.exe`.
 ## Install
 
 ```
-claude plugin marketplace add a136-byte/claude-code-plugins
+claude plugin marketplace add https://github.com/a136-byte/claude-code-plugins.git
 claude plugin install windows-notify@a136-byte-plugins
 ```
 
 Restart Claude Code, or run `/reload-plugins`.
+
+Use the full HTTPS URL rather than the `owner/repo` shorthand. The shorthand
+clones over SSH, which requires a key registered with GitHub; the HTTPS form
+needs no credentials at all for a public repository.
 
 ## What you get
 

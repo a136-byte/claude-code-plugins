@@ -5,8 +5,13 @@ A small Claude Code plugin marketplace.
 ## Use it
 
 ```
-claude plugin marketplace add a136-byte/claude-code-plugins
+claude plugin marketplace add https://github.com/a136-byte/claude-code-plugins.git
 ```
+
+Use the full HTTPS URL rather than the `owner/repo` shorthand. The shorthand
+clones over SSH, which requires a key registered with GitHub; the HTTPS form
+needs no credentials at all for a public repository, so it works on a machine
+you have not set up yet.
 
 Then install what you want:
 
