@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "windows-notify",
+  "version": "0.1.0",
+  "description": "Windows toast notification when Claude Code finishes a turn or needs your input.",
+  "author": {
+    "name": "a136-byte",
+    "url": "https://github.com/a136-byte"
+  },
+  "homepage": "https://github.com/a136-byte/claude-code-plugins",
+  "repository": "https://github.com/a136-byte/claude-code-plugins",
+  "license": "MIT",
+  "keywords": [
+    "notification",
+    "toast",
+    "windows",
+    "hooks"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-code-plugins",
+  "description": "Small, focused Claude Code plugins for Windows workflows.",
+  "owner": {
+    "name": "a136-byte",
+    "url": "https://github.com/a136-byte"
+  },
+  "plugins": [
+    {
+      "name": "windows-notify",
+      "source": "./plugins/windows-notify",
+      "description": "Windows toast notification when Claude Code finishes a turn or needs your input.",
+      "version": "0.1.0"
+    }
+  ]
+}
